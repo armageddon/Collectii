@@ -1,0 +1,109 @@
+<div id="holder">
+<div id="post">
+	<h3 style= "display:inline;"><%= @posts.title.titleize %></h3> <br><br>
+<% if @poster %>
+<img src="/photo/pic/<%= @poster.id.to_s %>/<%= @poster['pic'].to_s %>" width="500">
+ 
+	<% image_tag( url_for_file_column( 'poster', 'pic', 'medium'))%><br><br>
+<% end %>
+
+<h1 style= "display:inline;"><%= nl2br(@posts.post) %> </h1>
+<% if @posts.user_id == @user_id %> 
+<%= link_to '...[edit]', :action => 'edit', :controller=>'posts', :id => @posts %>
+<% end %>
+<br>
+<br>
+
+
+<br>
+
+<%= link_to 'List.', :action => 'show', :id => @posts %> <%= link_to 'Icons.', :action => 'show', :id => @posts %><% if @posts.user_id == @user_id %>	<%= link_to 'Add to Collection.', :action => 'new', :id => @posts %>
+	<% end%>
+<br><br>	
+
+<% count= 0%>
+<table>
+<% @posts.photos.each do |@photo| %>
+
+<% if @photo.post_id.to_s == @post_id.to_s %>
+<% count +=1 
+if count == 4
+	count = 1
+	%>
+	</tr><tr>
+<% end %>
+<td valign="top" width="150px">
+
+<div id="smallpic">
+
+				 <%= link_to( image_tag( url_for_file_column( 'photo', 'pic', 'thumb')), 
+				                    url_for_file_column( 'photo', 'pic', 'medium'), 
+				        { :rel => "lightbox" } )%><br />
+</div>				
+						<small><%= nl2br(@photo.caption) %>	
+<% if @user_id.to_s == @user.to_s %>
+<br>
+<%= link_to '...[edit]', :action => 'edit', :id => @photo %>
+<%= link_to '...[delete]', { :action => 'destroy', :id => @photo }, :confirm => 'Are you sure?', :post => true %>
+<% end %>
+							</small> <br><br>
+</td>
+
+<% end %>
+<% end %>
+</tr></table>
+<br>
+<div id="commentbox">
+	<br>
+<%= "<h1>" + @posts.comments.length.to_s + " Comments:</h1>" unless @posts.comments.empty? %> 
+
+<div id="comment">
+<% @posts.comments do |comment| %>
+<b><%= mail_to comment.email, comment.author, :encode => "hex" %></b><br><a href="<%= comment.url %>">website</a><br>
+<br/> <small>  commented <%= distance_of_time_in_words @posts.created_at, comment.created_at %> later:</small><br/> 
+<%= nl2br(comment.comment) %>
+<br><br>
+<% end %>
+</div> 
+
+<div id="commentholder">
+<%= render :partial => 'posts/comment_form' %>
+</div>
+</div>
+<br>
+<% if @posts.user_id == @user_id %> 
+<%= link_to 'Edit.', :action => 'edit', :id => @posts %>
+<% end %> 
+<%= link_to 'Back.', :action => 'list' %>
+</div>
+
+<div id="right"><br><br><br>
+<h2 style= "display:inline;">Collector: </h2>
+		<%= link_to @owner, :action => 'collector', :controller=>'posts', :id => @owner %>
+
+		<br>
+
+		<h2 style= "display:inline;">Posted:</h2>
+			<%= distance_of_time_in_words_to_now @posts.created_at %> ago<br/>
+			
+			<h2 style= "display:inline;">Last edited:</h2>
+				<%= distance_of_time_in_words_to_now @posts.modified_at %> ago<br/><br>
+	<h2 style= "display:inline;">Visits:</h2> <%= @posts.visit_count %><br/>
+	<div id="star-ratings-block">
+		<h2 style= "display:inline;">Collection Rating:</h2>
+		
+	    <%= render :partial => "rating/rating", :locals => { :post => @posts } %>
+	</div>
+	<br>
+	<h2 style= "display:inline;">Categories: </h2><br>
+
+ 
+		<%= render :partial => "photos/tags" , :locals => {:post => @posts} %>
+
+		<br><br>
+	<%= render :partial => 'plugins/suggest' %> 
+	</div>
+
+	</div>
+
+

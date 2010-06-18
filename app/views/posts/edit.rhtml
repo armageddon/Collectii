@@ -1,0 +1,22 @@
+<table><tr><td margin="30px" valign="top">
+	<div id="post">
+<h1>Editing collection:</h1>
+
+<%= start_form_tag :action => 'update', :id => @post %>
+  <%= render :partial => 'form' %>
+</div>
+<div id="button">
+<%= submit_tag 'Save' %>
+or <%= link_to 'Cancel', :action => 'collection', :controller=>'photos', :id=> @post %>
+</div>
+
+<%= end_form_tag %>
+
+
+</td><td width="50px"></td><td valign="top">
+	
+	<% @edit="true";%>
+	 <%= render :partial => 'plugins/thumb_gallery', :locals => {:post => @post, :edit => @edit} %>
+
+</td></tr>
+<table>

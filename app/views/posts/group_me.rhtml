@@ -1,0 +1,54 @@
+<div id="intro">
+	<h2>Grouping with 
+		<%= link_to @collection.title, :controller => 'posts', :action => 
+		'collection', :id =>@collection %>
+</h2>
+<br><h1>Choose which of your collections you want to group with:</h1>			
+<% if @posts.length >0 %>
+
+<%= start_form_tag({ :action => 'add_group', :id=> @user_id, :collection=> @collection }) %>
+<% count = 0 %>
+
+<br><br>
+
+<% @posts.each do |post| %>
+<% checked ="false" %>
+<% count = count + 1 %>
+<input type="checkbox" id= "<%post.id%>" name="group[]" value="<%=post.id%>"
+<% @groups.each do |group| %>
+
+<%if post.groups.include? group %>
+<%if group.grouped_to.to_s == params[:id].to_s %>
+checked="checked"
+<%end%> 
+<%end%> 
+<% end %>
+
+>
+
+
+<%= link_to post.title, :action => 'collection', :controller=>'photos', :id => post.id %><br/>	
+<% end %>
+	<%# hidden_field_tag "id", @collection.id %>
+<br>
+   <%= submit_tag "Add Groups", :class => "submit" -%> 
+<%= end_form_tag -%>
+<%= start_form_tag( :action => 'collection', :controller=>'photos', :id=> params[:id] ) -%>
+<%= submit_tag "Cancel", :class => "cancel" -%>
+<%= end_form_tag -%>
+<% else 
+@back = "../"+ request.referer
+%>
+<h1 style="color: red;">Oops. You currently have no collections.</h1><br><br>
+<h1>Why not <%= link_to 'add a collection.', :controller=>'posts', :action => 'new' %> <br>
+	If this is a mistake <%= link_to 'go back', :action => 'collection', :controller=>'photos', :id=> params[:id] %> from whence u came.</h1>
+
+
+
+<% end %>
+</div>
+
+
+
+
+

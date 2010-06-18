@@ -1,0 +1,74 @@
+<h1>Listing Collection by Category: <b><%= @page_title.titleize %></b></h1>
+
+
+
+<% for post in @posts %> 
+<% @owner= User.find(post.user_id).name %>
+
+<table>
+	<tr><td width="640">
+<div id="post">
+	
+<h3><%= link_to h(truncate(post.title.titleize, 200)), :action => 'collection',:controller=> 'photos', :id => post %> 
+</h3>
+		<%= h(truncate(post.post, 200)) %> 
+<%= render :partial => 'plugins/admin', :locals => {:post => post} %>
+<br></div> <br>
+<h2>Collection:</h2> 
+
+<% post.photos.each do |@photo| %>
+
+<% if @photo.post_id.to_s == post.id.to_s %>
+<div id="collection">
+<div id="photo">
+
+
+				 <%= link_to( image_tag( url_for_file_column( 'photo', 'pic', 'thumb')), 
+				                    url_for_file_column( 'photo', 'pic', 'medium'), 
+				        { :rel => "lightbox" } )%><br />
+						<small><%= nl2br(@photo.caption) %>	
+<% if @user_name.to_s == @owner.to_s %>
+<br>
+<%= link_to '...[edit]', :action => 'edit', :controller=>'photos', :id => @photo %>
+<%= link_to '...[delete]', { :action => 'destroy', :id => @photo }, :confirm => 'Are you sure?', :post => true %>
+<% end %>
+							</small>
+</div>
+</div>
+<% end %>
+<% end %>
+
+</td><td valign="top">
+		<h2 style= "display:inline;">Collection Owner: </h2><%= link_to @owner, :action => 'collector', :id => @owner	 %>
+	<br><br>
+		<h2 style= "display:inline;">Posted:</h2>
+			<%= distance_of_time_in_words_to_now post.created_at %> ago<br/>
+			
+			<h2 style= "display:inline;">Last edited:</h2>
+				<%= distance_of_time_in_words_to_now post.modified_at %> ago<br/><br>
+	
+<h2 style= "display:inline;">Categories: </h2>
+	<% for tag in post.tags %> 
+	<%= link_to tag, :action => 'taglist', :id => tag.name %>. 
+	<% end %>
+
+<br>
+
+
+<% if @user_id == post.user_id %>
+	<%= link_to 'Add to Collection.', :action => 'addphoto', :id => post %>
+<%= link_to 'Edit.', :action => 'edit', :id => post %> 
+<%= link_to 'Destroy.', { :action => 'destroy', :id => post }, :confirm => 'Are you sure?', :post => true %>
+	<% end%>
+
+<br>
+</tr>
+</table>
+	<% end %> 
+
+
+
+
+	<br />
+
+

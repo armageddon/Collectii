@@ -1,0 +1,19 @@
+
+<% if flash[:notice] -%> 
+<div id="notice"><%= flash[:notice] %></div> 
+<% end -%> 
+
+
+
+<h3>Collections in Category: <b><%= @page_title.titleize %></b></h3>
+
+
+<br>
+
+
+<% for post in @posts %> 
+<% @profile = Profile.find_by_user_id(post.user_id) %>
+	<%= render :partial => "plugins/show_post", :locals => {:post => post, :@profile => @profile} %>
+<% end%>
+
+<br />

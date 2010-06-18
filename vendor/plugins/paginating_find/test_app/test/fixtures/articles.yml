@@ -1,0 +1,9 @@
+testing:
+  id: 1
+  name: Testing Rails Applications
+  author_id: 1
+
+deploying:
+  id: 2
+  name: Deploying Rails Applications
+  author_id: 2

@@ -1,0 +1,28 @@
+
+<% if flash[:notice] -%> 
+<div id="notice"><%= flash[:notice] %></div> 
+<% end -%> 
+
+
+
+
+<h3><%=params[:id]  %>:</h3>
+<br>
+
+
+<br>
+
+
+<% for post in @posts %> 
+	<%= render :partial => "plugins/show_post", :locals => {:post => post} %>
+<% end%>
+<% if @posts_pages.page_count > 1 %>
+More... Page&nbsp;:
+<%= pagination_links_remote @posts_pages %>
+<% end %>
+
+<br />
+
+	<div id="tag-cloud">
+	<%= render :partial => 'plugins/tag_cloud',:locals => {:tags => @tags} %> 
+</div>

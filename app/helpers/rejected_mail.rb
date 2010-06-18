@@ -1,0 +1,2 @@
+module RejectedMailHelper
+end

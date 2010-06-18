@@ -1,0 +1,14 @@
+<br/><br/>
+<%= form_tag :action => 'login', :controller=>'account'%>
+<label for="login">Login</label><br/>
+<%= text_field 'user', 'login' %><br/>
+
+<label for="password">Password</label><br/>
+<%= password_field 'user', 'password' %><br/>
+
+<p><label for="remember_me">Remember me:</label>
+<%= check_box_tag 'remember_me' %></p>
+
+
+<p><%= submit_tag 'Log in' %></p>
+</form>

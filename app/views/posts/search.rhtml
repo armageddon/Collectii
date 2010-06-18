@@ -1,0 +1,44 @@
+<br><br>
+
+<div id="intro">
+<% if @results or @results2 or @results3 or @results4 -%>
+<h1>Your search for <b><%= h @query %></b> returned <%= @results.size + @results2.size + @results3.size %> Results:</h1>
+
+<% if @results.length>0  -%>
+<p><b>Search returned results in content</b></p>
+  <% @results.each { |result| -%>
+  <%= link_to result.title, :action => 'show', :id => result %><br>
+<p><%= h(truncate(result.post, 100)) %></p> 
+  <% } -%>
+<br>
+<% end -%>
+<% if @results3.length>0 -%>
+  <% @results3.each { |result| -%>
+  <%= link_to result.title, :action => 'show', :id => result %><br>
+<p><%= h(truncate(result.post, 100)) %></p> 
+<br>
+  <% } -%>
+<br>
+<% end -%>
+<% if @results2.length>0 -%>
+<p><b>Search returned results in categories</b></p>
+ <% @results2.each { |result| -%>
+  <%= link_to result.title, :action => 'show', :id => result %><br>
+<p><%= h(truncate(result.post, 100)) %></p> 
+  <% } -%>
+<% end -%>
+
+<% if @results4.length>0  -%>
+<p><b>Search returned results in users</b></p>
+ <% @results4.each { |result| -%>
+  <%= link_to result.name, :action => 'collector',:controller => 'posts', :id => result %><br>
+<p><%= h(truncate(result.profile.about_me, 100)) %></p> 
+<br>
+  <% } -%>
+<% end -%>
+
+<% else -%>
+
+<b>Sorry, your search for <%= h @query %> returned no results.</b><br>
+<% end -%>
+</div>

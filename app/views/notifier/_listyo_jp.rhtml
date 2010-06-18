@@ -1,0 +1,14 @@
+<% for event in @events%><% unless event.j_title.blank? %>-----------------------------------------------------------------------------------------------------------
+
+-- <% for cat in event.categories %> <%= cat.cat_name %><% end%> -- 
+ 
+<%= event.j_title.upcase %>
+<% unless event.j_subtitle.blank? %> <%= event.subtitle %><% end %>
+<%= event.longdate(event.event_date)  %> - <% venue=Venue.find(event.venue_id) %><%= venue.j_venue_name %> (<%= place=Place.find(venue.place_id).j_place_name %>) 
+<% unless event.price.blank? %>Price: <%= event.price %><% end %>
+
+<%= ((event.j_details.strip)) %>
+
+Links:
+<% if !event.j_links.blank or !event.j_links!="" %><%= ((event.j_links.strip)) %><% else %><%= ((event.links.strip)) %><% end %>
+<%end%><%end%>

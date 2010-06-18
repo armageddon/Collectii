@@ -1,0 +1,36 @@
+
+<div id="commentlist-<%=comment_post.id%>">
+<table width="550px"><tr><td valign="top">
+
+	<div id="user_profile">
+<% @profile= Profile.find_by_user_id(comment_post.user_id) %>
+<% @user= User.find_by_id(comment_post.user_id) %>
+		<% if @profile %>
+			<% if @profile.pic %>
+
+<%= link_to( image_tag( url_for_file_column( 'profile', 'pic', 'thumb')), 
+ :action=> 'view_profile', :controller=>'user', :id=> @user.id )%>
+
+<% else %>
+<%= link_to( image_tag( 'macface.gif'), :action=> 'view_profile', :controller=>'user', :id=> @user.id )%>
+<% end %>
+<% else %>
+<img src="/images/macface.gif" height="50px" width="50px">
+
+		<% end %>
+		</td><td valign="top">
+<h2>
+	<a name="<%= comment_post.id %>">
+	<% name= User.find_by_id(comment_post.user_id).name %>
+
+<%= link_to name, :action => 'collector', :controller=>'posts', :id => name %>   said:
+</h2>	</a>
+</div> 
+<div id="comment">
+<%= nl2br(comment_post.body) %>
+</div> 
+<small><%= distance_of_time_in_words_to_now comment_post.created_at %> ago.</small>
+
+<br></td></tr>
+</table>
+</div> 

@@ -1,0 +1,4 @@
+class ListyoController < ApplicationController
+	
+	
+end

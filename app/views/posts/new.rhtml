@@ -1,0 +1,14 @@
+
+<h3>Add A New Collection</h3>
+
+<%= start_form_tag :action => 'create' %>
+<%= render :partial => 'form' %>
+<div id="button">
+<%= submit_tag "Create Collection" %>
+
+<%= link_to 'Cancel', :controller=>'posts', :action => 'collector', :id=> session[:user_name]%>
+<%= end_form_tag %>
+</div>
+
+
+

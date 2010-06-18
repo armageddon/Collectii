@@ -1,0 +1,32 @@
+
+<% if flash[:notice] -%> 
+<div id="notice"><%= flash[:notice] %></div> 
+<% end -%> 
+<br>
+<div id="intro">
+<h1 style="display:inline;">Listing for all user cities.</h1> <br/>
+
+</div>
+
+<br><br>
+	<% oldcity = "" %>
+<div id="intro">
+<% for city in @cities %> 
+<%  mycity=city.city  %> 
+<% if mycity %>
+<%  mycity=mycity.titleize  %> 
+	<% if oldcity != mycity and mycity.length >1  %>
+		<% oldcity = mycity %>
+			<% mycity = mycity  +". " %>
+	<%= link_to (mycity), :action => 'location', :controller=>'posts', :id=> city.city %>
+	
+<% end%>
+<% end%>
+<% end%>
+
+<br /><br><br /><br><br /><br>
+
+Coming soon... Google Maps integration.	
+<br><br></div>
+
+

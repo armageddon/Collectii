@@ -1,0 +1,20 @@
+
+<% if flash[:notice] -%> 
+<div id="notice"><%= flash[:notice] %></div> 
+<% end -%> 
+<br>
+<div id="intro">
+<h1 style="display:inline;">Listing collections for location: <%= @page_title.titleize %>. You may also want to see a list of <%= link_to "all users", :action => 'user_by_location', :controller=>'posts', :id=>@page_title %> in located in <%= @page_title.titleize %>. Or <%= link_to "Click here", :action => 'all_cities', :controller=>'posts' %> for a full list of other home cities.</h1> <br/>	
+</div>
+
+<br><br>
+
+
+<% for post in @posts %> 
+	<%= render :partial => "plugins/show_post", :locals => {:post => post} %>
+<% end%>
+
+<br />
+
+
+

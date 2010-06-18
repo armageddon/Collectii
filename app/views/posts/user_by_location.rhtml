@@ -1,0 +1,61 @@
+
+<% if flash[:notice] -%> 
+<div id="notice"><%= flash[:notice] %></div> 
+<% end -%> 
+<br>
+<div id="intro">
+<h1 style="display:inline;">Listing for all users based in <%= @location %>.</h1> <br/>
+
+</div>
+
+<br><br>
+
+<table>
+<% for user in @users %> 
+<% username = User.find_by_id (user.user_id)
+if user.hide == "1"
+name = "<i>Real name Hidden</i>"	
+else
+name = user.name + " " + user.surname
+end %>
+ <tr><div id="intro">
+	<td>
+<% if user.pic 
+	@user=user
+	%>
+<%= link_to( image_tag( url_for_file_column( 'user', 'pic', 'thumb')), 
+			                    url_for_file_column( 'user', 'pic', 'medium'), 
+			        { :rel => "lightbox" } )%>
+
+		<% end %>
+</td>
+		<td>
+			<%= link_to (username.name ), :action => 'location', :controller=>'posts', :id=> user.user_id %><br>
+		<%= link_to (name), :action => 'location', :controller=>'posts', :id=> user.user_id %>
+		<br>
+			<%= link_to (user.website), :action => 'location', :controller=>'posts', :id=> user.user_id %>		
+		</td>
+		<td>
+
+		</td>
+</div>		</tr>
+		
+			<tr>
+		<td colspan="3">
+	
+			<% posts = Post.find (:all, :conditions => ["user_id='#{user.user_id}'"], :limit => 20) %>
+			<% for post in posts %> 
+		<%= link_to (post.title), :action => 'location', :controller=>'posts', :id=> user.user_id %>	<br>
+		<% end -%>
+		<br>
+		</td>
+		
+</tr>
+<% end%></table>
+
+<br /><br><br /><br><br /><br>
+<div id="intro">
+Coming soon... Google Maps integration.	
+<br><br></div>
+
+

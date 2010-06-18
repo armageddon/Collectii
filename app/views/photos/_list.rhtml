@@ -1,0 +1,36 @@
+<% if photo.post_id.to_s == @post_id.to_s %>
+<tr class="<%= cycle('list_grey', 'list_white') %>">
+	
+<td valign="top">
+	<%= link_to( image_tag( url_for_file_column( 'photo', 'pic', 'thumb'), :width=>"40px"),  url_for_file_column( 'photo', 'pic', 'medium'), 
+	       { :rel => "lightbox" , :title=>@photo.caption+"<br><br>"} )%>
+	</td>
+<td valign="top" width="360px">	
+<%=	link_to( h(truncate(photo.caption, 130)),  url_for_file_column( 'photo', 'pic', 'medium'),  { :rel => "lightbox" , :title=>@photo.caption+"<br><br>"} )%>
+
+</td>
+
+
+										
+<% if @user_id.to_s == @user.to_s %>
+
+<td valign="top">
+<%= link_to image_tag( 'edit_22x11.gif'), :action => 'edit', :id => photo %>
+</td>
+
+<td valign="top">
+			<%= link_to( image_tag( 'del_11x11.gif'), { :action => 'destroy', :id => photo }, :confirm => 'Are you sure?', :post => true) %>
+</td>
+
+<% else %>
+<td></td>
+<td></td>
+	
+<% end %>
+							 
+
+</tr>
+
+<% end %>
+
+

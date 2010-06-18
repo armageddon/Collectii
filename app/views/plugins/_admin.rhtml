@@ -1,0 +1,6 @@
+<% if @posts.user_id == @user_id %> 
+<br>
+<%= link_to image_tag( 'add_to_collection.gif'), :action => 'new', :controller=>'photos', :id => @posts %> <%= link_to image_tag( 'edit_23x11.gif'), :action => 'edit', :controller=>'posts', :id => @posts %>
+<%= link_to( image_tag( 'del_11x11.gif'), {  :action => 'destroy', :id => id }, :confirm => 'Are you sure you want to delete this collection? This action is not recoverable.', :posts => true) %>
+<br>
+<% end %>

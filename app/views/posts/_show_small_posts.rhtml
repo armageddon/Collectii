@@ -1,0 +1,56 @@
+
+
+<table style="background-color:#fff; padding:10px 0 10px 0"><tr><td 	colspan="2" v-align="top" margin-right:"80px"> 
+	<% @owner= User.find(post.user_id) %>
+<div id="post">	
+
+<class id="author">		
+<%= link_to post.title.titleize, :action => 'collection',:controller=>'photos', :id => post %>
+</class>
+<br>
+
+<%= render :partial => "plugins/admin", :locals => {:@posts => post} %>
+
+<br></td></tr><tr>
+<td 	width="220px" valign="top" margin-right:20px;> 
+<% @poster = post.photos.find(:first, :conditions => "poster_image= '1'", :order => 'RAND()')%>
+<% if @poster %>
+<%= link_to( image_tag( url_for_file_column( 'poster', 'pic', 'medium'), :width=>'200'), 
+:action => 'collection', :controller=>'photos', :id => post)%><br />
+
+<br>
+<% else %>
+<br>
+[No picture yet...]
+
+<br><br><br>
+<% end %>
+
+
+</div>
+<br><br>
+
+
+<br>
+<br>
+ 
+</td>
+<td width="440px" valign="top">
+
+Collector: 
+<%= link_to @owner.name, :action => 'collector', :id => @owner %>
+<br>
+	<h1>
+	<%= h(truncate(post.post, 200)) %> <%= link_to "(more)", :action => 'collection' %>
+	</h1>
+
+Categories:
+	<%= render :partial => "plugins/tags", :locals => {:post => post} %>
+
+
+</td></tr>
+</table>
+
+
+       
+       <br>

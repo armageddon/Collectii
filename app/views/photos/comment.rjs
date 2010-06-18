@@ -1,0 +1,2 @@
+page.insert_html :top, 'commentholder', "Foxy lady <br>"
+page.visual_effect :highlight, 'commentholder', :duration => 3

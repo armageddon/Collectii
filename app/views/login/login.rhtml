@@ -1,0 +1,45 @@
+Just for testing: <%= session[:referer] %>
+
+<h3>Collections Login</h3>
+<div class="depot-form">
+Not a member? <%= link_to 'Signup.', :action => 'add_user' %>  <br> <br> 
+
+  <%= start_form_tag %>
+
+
+<table>     
+<tr><td valign="top"> 
+Your Email:
+</td> <td>
+        <%= text_field_tag :name, params[:name] %>
+ </td> </tr>
+
+      <tr><td> 
+        <label for="password">Password:</label>
+</td> <td>
+        <%= password_field_tag :password, params[:password] %>
+ </td> </tr>
+<tr>
+	
+<td colspan="2"><br>
+
+<%= submit_tag "Log In", :name=>:login, :action=> 'authentication', :submit=>'Log In' %> 
+<%= submit_tag "Login and Edit Your Profile" , :name=>:login, :action=> 'authentication'%>
+
+   <%= end_form_tag %>
+<br><br><br>
+
+<div id="yellowbox">	
+
+	Collections requires a modern browser Internet Explorer 6.x, Safari, or Firefox, with Javascript enabled. Internet Explorer 5.x won't work. We recommend Firefox or Safari.
+</div></td>
+</tr>
+  </table>
+
+
+<br><br>
+<%= link_to 'Signup.', :action => 'add_user' %> <%= link_to 'Logout.', :action => 'logout' %>
+
+</div>
+
+

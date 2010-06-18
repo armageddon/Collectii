@@ -1,0 +1,24 @@
+
+<% if flash[:notice] -%> 
+<div id="notice"><%= flash[:notice] %></div> 
+<% end -%> 
+
+<div id="intro">
+<br><h1>Currently the most popular collections on Collectivism, by number user rating. You might also be interested in most popular by <%= link_to 'number of visits', :action => 'popular' %>, most popular  <%= link_to 'by category', :action => 'rating' %> and the most popular <%= link_to 'new collections.', :action => 'new_collections' %> 
+	<br>
+	</h1>
+</div>
+
+
+<br>
+
+
+<% for rating in @ratings %> 
+
+	<%= render :partial => "plugins/show_post", :locals => {:post => rating} %>
+<% end%>
+<% if @ratings_pages.page_count > 1 %>
+More... Page&nbsp;:
+<%= pagination_links_remote @ratings_pages %>
+<% end %>
+<br />

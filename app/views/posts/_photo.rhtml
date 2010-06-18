@@ -1,0 +1,21 @@
+
+<div id="collection">
+<div id="photo"><b>
+<%= photo.id %><br>
+<%= photo['pic'] %><br>
+<%= photo.pic("thumb") %><br>
+
+
+
+<img src="/photo/pic/<%= photo.id.to_s %>/<%= photo['pic'].to_s %>" >
+
+<br>
+</b> <br>
+	<small><%= nl2br(photo.caption) %>	
+
+		<%= link_to '...[edit]', :action => 'edit', :id => @post %>
+
+		</small>
+	</div> 
+<br>
+</div> 

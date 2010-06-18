@@ -1,0 +1,15 @@
+<%= error_messages_for 'post' %>
+
+<!--[form:post]-->
+<p><label for="post_title"><h4>Title:</h4></label>
+<%= text_field 'post', 'title', :size => 50 %></p>
+
+<p><label for="post_post"><h4>Collection Details:</h4></label>
+<%= text_area 'post', 'post', "cols" => 47, "rows" => 12 %></p>
+<p><label for="post_tag"><h4>Categories:</h4> </label>
+<%= text_field_tag 'tag_list', @post.tags.collect{|t| t.name}.join(" "), :size => 50 %><br>
+<small>** Separate categories by spaces. If you want a two word category, use an underscore, eg. buzz_lightyear<br><br></small> 
+</p>
+
+<!--[eoform:post]-->
+

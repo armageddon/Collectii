@@ -1,0 +1,19 @@
+
+<div id="left">
+<h2>Viewing photo details for collection:</h2><h3><%= @collection.title %></h3>
+
+<%= link_to( image_tag( url_for_file_column( 'photo', 'pic', 'medium'), :width=>"462px"), :action=>'collection', :id=>@collection)%> <br><br>
+<%= @photo.caption + "<br><br>"%>
+Created: <%= @photo.created_at%> <br>
+<% for column in Photo.content_columns %>
+<p>
+  <b><%= column.human_name %>:</b> <%=h @photo.send(column.name) %>
+</p>
+<% end %>
+
+
+<%= link_to 'Back', :action => 'list', :id => @photo.post_id, :post_id=>@photo.post_id %>
+</div>
+<div id="right">
+	
+</div>

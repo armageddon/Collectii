@@ -1,0 +1,40 @@
+
+<% @posts.each do |@photo| %>
+<div id="post">
+  <p>Title: <%=h @photo.caption %></p>
+
+<%= link_to( image_tag( url_for_file_column( 'photo', 'pic', 'thumb')), 
+				                    url_for_file_column( 'photo', 'pic', 'medium'), 
+				        { :rel => "lightbox" } )%><br />
+				
+</div>
+<div id="right"><br><br><br>
+<h2 style= "display:inline;">Collector: </h2>
+<%= link_to @owner, :action => 'collector', :controller=>'posts', :id => @owner %>
+
+								<br>
+
+								<h2 style= "display:inline;">Posted:</h2>
+									<%= distance_of_time_in_words_to_now @posts.created_at %> ago<br/>
+
+									<h2 style= "display:inline;">Last edited:</h2>
+										<%= distance_of_time_in_words_to_now @posts.modified_at %> ago<br/><br>
+							<h2 style= "display:inline;">Visits:</h2> <%= @posts.visit_count %><br/>
+							<div id="star-ratings-block">
+								<h2 style= "display:inline;">Collection Rating:</h2>
+
+							    <%= render :partial => "rating/rating", :locals => { :post => @posts } %>
+							</div>
+							<br>
+							<h2 style= "display:inline;">Categories: </h2><br>
+
+
+								<%= render :partial => "tags", :locals => {:post => @posts} %>
+
+								<br><br>
+	
+							</div>
+<% end %>
+
+
+

@@ -1,0 +1,1045 @@
+** TERM signal received.
+Loaded suite /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/bin/mongrel_rails
+Started
+
+Finished in 0.000251 seconds.
+
+0 tests, 0 assertions, 0 failures, 0 errors
+** Daemonized, any open files are closed.  Look at /Users/admin/Sites/collections4/log/locomotive.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3006
+** Starting Rails with development environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel available at 0.0.0.0:3006
+** Writing PID file to /Users/admin/Sites/collections4/log/locomotive.pid
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:213: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:213: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:213: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:213: warning: don't put space before argument parentheses
+** TERM signal received.
+Loaded suite /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/bin/mongrel_rails
+Started
+
+Finished in 0.000261 seconds.
+
+0 tests, 0 assertions, 0 failures, 0 errors
+** Daemonized, any open files are closed.  Look at /Users/admin/Sites/collections4/log/locomotive.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3006
+** Starting Rails with development environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel available at 0.0.0.0:3006
+** Writing PID file to /Users/admin/Sites/collections4/log/locomotive.pid
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:213: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:213: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:213: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:213: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/views/login/login.rhtml:36: warning: parenthesize argument(s) for future version
+/Users/admin/Sites/collections4/config/../app/views/login/login.rhtml:36: warning: parenthesize argument(s) for future version
+/Users/admin/Sites/collections4/config/../app/views/login/login.rhtml:36: warning: parenthesize argument(s) for future version
+/Users/admin/Sites/collections4/config/../app/views/login/login.rhtml:36: warning: parenthesize argument(s) for future version
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:213: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/views/login/login.rhtml:36: warning: parenthesize argument(s) for future version
+/Users/admin/Sites/collections4/config/../app/views/login/login.rhtml:36: warning: parenthesize argument(s) for future version
+/Users/admin/Sites/collections4/config/../app/views/login/login.rhtml:36: warning: parenthesize argument(s) for future version
+/Users/admin/Sites/collections4/config/../app/views/login/login.rhtml:36: warning: parenthesize argument(s) for future version
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:213: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:213: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:213: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:213: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:213: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:213: warning: don't put space before argument parentheses
+** TERM signal received.
+Loaded suite /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/bin/mongrel_rails
+Started
+
+Finished in 0.000241 seconds.
+
+0 tests, 0 assertions, 0 failures, 0 errors
+** Daemonized, any open files are closed.  Look at /Users/admin/Sites/collections4/log/locomotive.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3006
+** Starting Rails with development environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel available at 0.0.0.0:3006
+** Writing PID file to /Users/admin/Sites/collections4/log/locomotive.pid/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:213: warning: don't put space before argument parentheses
+
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:213: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:213: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:213: warning: don't put space before argument parentheses
+** TERM signal received.
+Loaded suite /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/bin/mongrel_rails
+Started
+
+Finished in 0.000695 seconds.
+
+0 tests, 0 assertions, 0 failures, 0 errors
+** Daemonized, any open files are closed.  Look at /Users/admin/Sites/collections4/log/locomotive.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3006
+** Starting Rails with development environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel available at 0.0.0.0:3006
+** Writing PID file to /Users/admin/Sites/collections4/log/locomotive.pid/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:213: warning: don't put space before argument parentheses
+
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:213: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:213: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:213: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:213: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/views/login/login.rhtml:36: warning: parenthesize argument(s) for future version
+/Users/admin/Sites/collections4/config/../app/views/login/login.rhtml:36: warning: parenthesize argument(s) for future version
+/Users/admin/Sites/collections4/config/../app/views/login/login.rhtml:36: warning: parenthesize argument(s) for future version
+/Users/admin/Sites/collections4/config/../app/views/login/login.rhtml:36: warning: parenthesize argument(s) for future version
+/Users/admin/Sites/collections4/config/../app/views/login/login.rhtml:36: warning: parenthesize argument(s) for future version
+/Users/admin/Sites/collections4/config/../app/views/login/login.rhtml:36: warning: parenthesize argument(s) for future version
+/Users/admin/Sites/collections4/config/../app/views/login/login.rhtml:36: warning: parenthesize argument(s) for future version
+/Users/admin/Sites/collections4/config/../app/views/login/login.rhtml:36: warning: parenthesize argument(s) for future version
+/Users/admin/Sites/collections4/config/../app/views/login/login.rhtml:36: warning: parenthesize argument(s) for future version
+/Users/admin/Sites/collections4/config/../app/views/login/login.rhtml:36: warning: parenthesize argument(s) for future version
+/Users/admin/Sites/collections4/config/../app/views/login/login.rhtml:36: warning: parenthesize argument(s) for future version
+/Users/admin/Sites/collections4/config/../app/views/login/login.rhtml:36: warning: parenthesize argument(s) for future version
+/Users/admin/Sites/collections4/config/../app/views/login/login.rhtml:36: warning: parenthesize argument(s) for future version
+/Users/admin/Sites/collections4/config/../app/views/login/login.rhtml:36: warning: parenthesize argument(s) for future version
+/Users/admin/Sites/collections4/config/../app/views/login/login.rhtml:36: warning: parenthesize argument(s) for future version
+/Users/admin/Sites/collections4/config/../app/views/login/login.rhtml:36: warning: parenthesize argument(s) for future version
+/Users/admin/Sites/collections4/config/../app/views/login/login.rhtml:36: warning: parenthesize argument(s) for future version
+/Users/admin/Sites/collections4/config/../app/views/login/login.rhtml:36: warning: parenthesize argument(s) for future version
+/Users/admin/Sites/collections4/config/../app/views/login/login.rhtml:36: warning: parenthesize argument(s) for future version
+/Users/admin/Sites/collections4/config/../app/views/login/login.rhtml:36: warning: parenthesize argument(s) for future version
+/Users/admin/Sites/collections4/config/../app/views/login/login.rhtml:36: warning: parenthesize argument(s) for future version
+/Users/admin/Sites/collections4/config/../app/views/login/login.rhtml:36: warning: parenthesize argument(s) for future version
+/Users/admin/Sites/collections4/config/../app/views/login/login.rhtml:36: warning: parenthesize argument(s) for future version
+/Users/admin/Sites/collections4/config/../app/views/login/login.rhtml:36: warning: parenthesize argument(s) for future version
+/Users/admin/Sites/collections4/config/../app/views/login/login.rhtml:36: warning: parenthesize argument(s) for future version
+/Users/admin/Sites/collections4/config/../app/views/login/login.rhtml:36: warning: parenthesize argument(s) for future version
+/Users/admin/Sites/collections4/config/../app/views/login/login.rhtml:36: warning: parenthesize argument(s) for future version
+/Users/admin/Sites/collections4/config/../app/views/login/login.rhtml:36: warning: parenthesize argument(s) for future version
+/Users/admin/Sites/collections4/config/../app/views/login/login.rhtml:37: warning: parenthesize argument(s) for future version
+/Users/admin/Sites/collections4/config/../app/views/login/login.rhtml:37: warning: parenthesize argument(s) for future version
+/Users/admin/Sites/collections4/config/../app/views/login/login.rhtml:37: warning: parenthesize argument(s) for future version
+/Users/admin/Sites/collections4/config/../app/views/login/login.rhtml:37: warning: parenthesize argument(s) for future version
+/Users/admin/Sites/collections4/config/../app/views/login/login.rhtml:37: warning: parenthesize argument(s) for future version
+/Users/admin/Sites/collections4/config/../app/views/login/login.rhtml:37: warning: parenthesize argument(s) for future version
+/Users/admin/Sites/collections4/config/../app/views/login/login.rhtml:37: warning: parenthesize argument(s) for future version
+/Users/admin/Sites/collections4/config/../app/views/login/login.rhtml:37: warning: parenthesize argument(s) for future version
+/Users/admin/Sites/collections4/config/../app/views/login/login.rhtml:37: warning: parenthesize argument(s) for future version
+/Users/admin/Sites/collections4/config/../app/views/login/login.rhtml:37: warning: parenthesize argument(s) for future version
+/Users/admin/Sites/collections4/config/../app/views/login/login.rhtml:37: warning: parenthesize argument(s) for future version
+/Users/admin/Sites/collections4/config/../app/views/login/login.rhtml:37: warning: parenthesize argument(s) for future version
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:213: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:213: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:213: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:213: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:213: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:213: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+** TERM signal received.
+Loaded suite /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/bin/mongrel_rails
+Started
+
+Finished in 0.00028 seconds.
+
+0 tests, 0 assertions, 0 failures, 0 errors
+** Daemonized, any open files are closed.  Look at /Users/admin/Sites/collections4/log/locomotive.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3006
+** Starting Rails with development environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel available at 0.0.0.0:3006
+** Writing PID file to /Users/admin/Sites/collections4/log/locomotive.pid
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:213: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:213: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:213: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:213: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:213: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:213: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:213: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:213: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:213: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:213: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+** TERM signal received.
+Loaded suite /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/bin/mongrel_rails
+Started
+
+Finished in 0.000301 seconds.
+
+0 tests, 0 assertions, 0 failures, 0 errors
+** Daemonized, any open files are closed.  Look at /Users/admin/Sites/collections4/log/locomotive.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3006
+** Starting Rails with development environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel available at 0.0.0.0:3006
+** Writing PID file to /Users/admin/Sites/collections4/log/locomotive.pid
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:213: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:213: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:213: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:213: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:213: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:213: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:213: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:213: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+** TERM signal received.
+Loaded suite /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/bin/mongrel_rails
+Started
+
+Finished in 0.000241 seconds.
+
+0 tests, 0 assertions, 0 failures, 0 errors
+** Daemonized, any open files are closed.  Look at /Users/admin/Sites/collections4/log/locomotive.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3006
+** Starting Rails with development environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel available at 0.0.0.0:3006
+** Writing PID file to /Users/admin/Sites/collections4/log/locomotive.pid
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+** TERM signal received.
+Loaded suite /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/bin/mongrel_rails
+Started
+
+Finished in 0.000248 seconds.
+
+0 tests, 0 assertions, 0 failures, 0 errors
+** Daemonized, any open files are closed.  Look at /Users/admin/Sites/collections4/log/locomotive.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3006
+** Starting Rails with development environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel available at 0.0.0.0:3006
+** Writing PID file to /Users/admin/Sites/collections4/log/locomotive.pid
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/photos_controller.rb:72: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:214: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:215: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:215: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:215: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:215: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:21: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:135: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/controllers/posts_controller.rb:215: warning: don't put space before argument parentheses
+/Users/admin/Sites/collections4/config/../app/models/photo.rb:5: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+/Users/admin/Sites/collections4/config/../app/views/plugins/_admin.rhtml:4: warning: Object#id will be deprecated; use Object#object_id
+** TERM signal received.
+Loaded suite /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/bin/mongrel_rails
+Started
+
+Finished in 0.000259 seconds.
+
+0 tests, 0 assertions, 0 failures, 0 errors
+** Daemonized, any open files are closed.  Look at /Users/admin/Sites/collections4/log/locomotive.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3006
+** Starting Rails with development environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel available at 0.0.0.0:3006
+** Writing PID file to /Users/admin/Sites/collections4/log/locomotive.pid
+** TERM signal received.
+Loaded suite /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/bin/mongrel_rails
+Started
+
+Finished in 0.00062 seconds.
+
+0 tests, 0 assertions, 0 failures, 0 errors

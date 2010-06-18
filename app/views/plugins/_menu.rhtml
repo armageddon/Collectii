@@ -1,0 +1,18 @@
+<%= render :partial => "plugins/search" %>
+
+<br><div id="menu">
+
+<%= link_to 'Home.', :controller => 'posts',:action => 'home' %> 
+	
+	<% if @user_name %>
+	<%= link_to 'Your Collections', :controller => 'posts',:action => 'collector', :id => session[:user_id] %> 
+	&nbsp<% end %>
+<%= link_to 'New collection', :controller => 'posts', :action => 'new' %>	&nbsp
+<%= link_to 'Popular', :controller => 'posts',:action => 'popular' %>&nbsp
+<%= link_to 'Forum', :controller => 'posts',:action => 'list' %>&nbsp
+<%= link_to 'Blog', :controller => 'posts',:action => 'list' %>&nbsp
+<%= link_to 'Learn More', :controller => 'posts',:action => 'list' %>
+
+
+
+</div>

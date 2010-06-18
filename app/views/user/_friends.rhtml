@@ -1,0 +1,17 @@
+	<% if @friends %>
+		<% @friends.each do |friend| %>
+
+	<% friend_name=User.find(friend.user_id)%>
+	<%= link_to friend_name.name, :controller => 'posts', :action => 
+	'collector', :id =>friend_name.name %>
+<% end %>
+<% end %>
+	<% if @friends2 %>
+			<% @friends2.each do |friend| %>
+
+		<% friend_name=User.find(friend.friend_id)%>
+		<%= link_to friend_name.name, :controller => 'posts', :action => 
+		'collector', :id =>friend_name.name %>
+		<% end %>
+		<% end %>
+		

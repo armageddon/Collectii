@@ -1,0 +1,24 @@
+
+<% if @user_profile.id == session[:user_id] %>
+<h3>View your collections:</h3>
+
+<%= link_to 'Add Collection', :action=> 'new', :controller=> 'posts'  %> 
+<% else %>
+<h1>View collector: <%= @user_profile.display_name %></h1>
+<% end %>
+
+<br>
+
+
+<br>
+<% for post in @posts %> 
+<%= render :partial => "plugins/show_post", :locals => {:post => post} %>
+<% end%>
+<% if @posts_pages.page_count > 1 %>
+More... Page&nbsp;:
+<%= pagination_links_remote @posts_pages %>
+<% end %>
+<br />
+
+
+

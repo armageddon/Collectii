@@ -1,0 +1,20 @@
+Dear <%=@user.display_name  %> 
+
+Welcome to Collectii.
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Your account details are as follows:
+Login: <%= @user.name %>
+Password: <%= @pw %>
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Please click here to activate your account: 
+http://localhost:3014/user/activate?activation_code=<%= @user.activation_code %>
+
+
+
+ 
+Collectii. Collecting everything under the sun.
+
+ 

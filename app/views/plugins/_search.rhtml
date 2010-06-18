@@ -1,0 +1,12 @@
+<div class="search">
+		<% form_id="search_form" %>
+<%= start_form_tag( :action => 'search', :controller=> 'posts') %>
+<input type="text" onFocus="if (this.value==this.defaultValue) this.value=''" name="search" value="Search" size="22">
+
+		<% #hidden_field_tag "form_id", form_id %> 
+		<div class="search2">
+		<%= image_submit_tag( 'search.gif')%> 
+	</div>
+		<%= end_form_tag %>
+		
+		</div>

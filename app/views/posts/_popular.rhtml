@@ -1,0 +1,20 @@
+
+<% if flash[:notice] -%> 
+<div id="notice"><%= flash[:notice] %></div> 
+<% end -%> 
+
+<div id="intro">
+<br><h1>Currently the most popular collections on Collectivism, by number of visits. You might also be interested in most popular <%= link_to 'by category', :action => 'add_user' %>, most popular  <%= link_to 'by rating', :action => 'rating' %> and the most popular <%= link_to 'this week.', :action => 'add_user' %> 
+	<br>
+	</h1>
+</div>
+
+
+<br>
+
+
+<% for post in @posts %> 
+	<%= render :partial => "plugins/show_post", :locals => {:post => post} %>
+<% end%>
+
+<br />

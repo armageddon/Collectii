@@ -1,0 +1,21 @@
+<% post.photos.each do |@photo| %>
+
+<% if @photo.post_id.to_s == post.id.to_s %>
+<div id="collection">
+<div id="photo">
+
+
+				 <%= link_to( image_tag( url_for_file_column( 'photo', 'pic', 'thumb')), 
+				                    url_for_file_column( 'photo', 'pic', 'medium'), 
+				        { :rel => "lightbox" } )%><br />
+						<small><%= nl2br(@photo.caption) %>	
+<% if @user_name.to_s == @owner.to_s %>
+<br>
+<%= link_to '...[edit]', :action => 'edit', :controller=>'photos', :id => @photo %>
+<%= link_to '...[delete]', { :action => 'destroy', :id => @photo }, :confirm => 'Are you sure?', :post => true %>
+<% end %>
+							</small>
+</div>
+</div>
+<% end %>
+<% end %>

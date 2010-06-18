@@ -1,0 +1,25 @@
+
+<% @count= 0%>
+
+<% post.photos.each do |@photo| %>
+<% if @photo != poster %>
+<% if @photo.post_id.to_s == post.id.to_s %>
+<% @count +=1 
+if @count == 7
+	@count = 1
+	%>
+<br>
+<% end %>
+
+
+<% @photo.caption = @photo.caption + "<br><br>"%>
+
+
+<%= link_to( image_tag( url_for_file_column( 'photo', 'pic', 'thumb'), :width=>"320px", :height=>"240px"), :action=>'collection', :id=>@posts.id , :poster=>@photo )%>
+										
+
+							
+<% end %>
+<% end %>
+<% end %>
+

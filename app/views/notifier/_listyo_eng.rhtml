@@ -1,0 +1,13 @@
+<% for event in @events%><% unless event.title.blank? %> 
+<%= event.longdate(event.event_date)  %>
+-----------------------------------------------------------------------------------------------------------
+<%=list_event_title(@lang, event).upcase %> <% unless event.subtitle.blank? %> -- <%=list_event_subtitle(@lang, event).upcase %><% end %>
+-----------------------------------------------------------------------------------------------------------
+
+<% venue=Venue.find(event.venue_id) %><% place=Place.find(venue.place_id) %><%= list_event_venue(@lang, venue).strip %> (<%= list_event_place(@lang, place).strip %>) 
+<% unless event.price.blank? %>Price: <%= event.price %><% end %>
+
+<%=list_event_details(@lang, event).strip %>
+
+<%=list_event_links(@lang, event).strip %>
+<%end%><%end%>

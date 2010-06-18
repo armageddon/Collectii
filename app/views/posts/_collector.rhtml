@@ -1,0 +1,44 @@
+
+<table>
+	<tr><td width="640">
+
+<h3>
+<%= link_to post.title.titleize, :action => 'collection', :controller=>'photos', :id => post.id %>
+<% @owner= User.find(post.user_id).name %>
+</h3> 
+<% @poster = post.photos.find(:first, :conditions => "poster_image= '1'", :order => 'RAND()')%>
+<% if @poster %>
+<%= link_to( image_tag( url_for_file_column( 'poster', 'pic', 'medium')), 
+:action => 'collection', :controller=>'photos', :id => post)%><br />
+
+<br>
+<% end %>
+<div id="posts">
+<%= h(truncate(post.post, 200)) %> 
+
+<br>
+
+<%= render :partial => "plugins/admin", :locals => {:post => post} %>
+<br>
+</div>
+ <br>
+</td>
+<td valign="top">
+	
+	<br><br><br>
+	<h2 style= "display:inline;">Visits:<%= post.visit_count %> </h2><br/>
+		<h2 style= "display:inline;">Posted: </h2>
+			<%= distance_of_time_in_words_to_now post.created_at %> ago<br/>
+		<h2 style= "display:inline;">Rating: </h2><%= number_with_precision(post.rating,1) %><br/>	
+		
+<h2>Categories: </h2>
+	<%= render :partial => "plugins/tags", :locals => {:post => post} %>
+	
+<br>
+<% if @user_name == @collector%>
+<%= link_to 'Add to Collection.', :action => 'addphoto', :id => id %>
+ 
+
+
+<% end %> 
+</td></tr></table>

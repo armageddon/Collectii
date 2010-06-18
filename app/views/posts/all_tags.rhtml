@@ -1,0 +1,22 @@
+
+<% if flash[:notice] -%> 
+<div id="notice"><%= flash[:notice] %></div> 
+<% end -%> 
+
+<div id="intro">
+<br><h1>Currently the most popular categories on Collectivism, by number number of collections. You might also be interested in most popular by <%= link_to 'number of visits', :action => 'popular' %>, most popular  <%= link_to 'by category', :action => 'rated' %> and the most popular <%= link_to 'new collections.', :action => 'new_collections' %> 
+	<br>
+	</h1>
+</div>
+
+
+<br>
+<div id="left">
+	<div id="yellowbox">
+	<div id="tag-underline">
+	<%= render :partial => 'plugins/tag_cloud',:locals => {:tags => @tags} %> 
+</div>
+</div>
+</div>
+
+<br />

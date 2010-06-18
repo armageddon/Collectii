@@ -1,0 +1,41 @@
+<div id="holder" style="clear:both;">
+
+<div id="left">
+
+<div id="post_title">
+<% @owner= User.find(post.user_id).name %>
+<h1><%= link_to post.title.titleize, :action => 'collection',:controller=>'photos', :id => post %></h1>
+by <%= link_to @owner, :action => 'collector', :id => post.user_id %><br>
+<%= render :partial => 'plugins/stats', :locals => {:post => post} %><br>
+</div>
+
+
+<%= render :partial => "rating/rating", :locals => { :post => post } %>
+<%= render :partial => "plugins/admin", :locals => {:@posts => post} %>
+
+<% @poster = post.photos.find(:first, :conditions => "poster_image= '1'", :order => 'RAND()')%>
+<% if @poster %>
+<%= link_to( image_tag( url_for_file_column( 'poster', 'pic', 'medium')), 
+:action => 'collection', :controller=>'photos', :id => post)%><br />
+
+<br>
+<% else %>
+<br>
+[No picture yet...]
+<br><br><br>
+<% end %>
+
+</div>
+
+<div id="right">
+
+<div id="details">	
+<% %> <%= link_to "(more)", :controller=>'photos',:action => 'collection', :id=>post.id %>
+<br>
+<h1>Categories:</h1>
+<%= render :partial => "plugins/tags", :locals => {:post => post} %>
+</div>
+
+</div>
+
+</div>

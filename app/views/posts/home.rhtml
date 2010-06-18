@@ -1,0 +1,44 @@
+<br><br> <%= image_tag 'banner.jpg' %> <br><br>
+
+
+
+<h2>Recent Collections</h2>
+
+<div id="left">
+<% for post in @posts %> 
+	<%= render :partial => "posts/show_small_posts", :locals => {:post => post} %>
+<% end%>
+ 
+	<br><br>
+
+
+<br />
+
+
+</div>
+
+<div id="right"> 
+<div id="signupbox">
+<h1>	<%= link_to 'Join up', :action=>'login', :controller=>'account' %> if you are not already a member. Membership is free. And easy.</h1>
+<%= link_to 'Start Collection', :action=>'login', :controller=>'account' %> or 
+<%= link_to 'Learn more', :action=>'login', :controller=>'account' %>
+</div>
+
+<div id="grey_box">
+	<hr>
+
+<h2>POPULAR COLLECTIONS:</h2>
+<%= render :partial => "plugins/popular", :locals => {:post => post} %>
+
+<hr>
+
+<h2>POPULAR CATEGORIES:</h2>
+<%= render :partial => "plugins/tag_cloud_plain", :locals => {:tags => @tags} %>
+<hr>
+
+<h2>LAST HEARD:</h2>
+<%= render :partial => "plugins/comments", :locals => {:@comment => @comment} %>
+<hr>
+
+</div>
+</div>

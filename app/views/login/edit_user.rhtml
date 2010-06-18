@@ -1,0 +1,41 @@
+
+
+<div class="depot-form">
+
+  <%= error_messages_for 'user' %>
+<h3>Collections Edit User</h3><br>
+
+still to put in <br>
+<h2>email me when comment added</h2>
+
+  <br><br>
+<table>
+   <%= start_form_tag :action => 'update', :id => @photo %>
+     <tr><td> 
+        <label for="user_name">Username:</label>
+</td> <td>
+	<%= text_field 'name', '@user.name'  %>
+   
+    </td> </tr>
+
+      <tr><td> 
+        <label for="user_password">Password:</label>
+</td> <td>
+      <%= text_field 'password', '@user.password'  %>
+       </td> </tr>
+
+      <tr><td>  
+        <label for="user_password_confirmation">Confirm:</label>
+</td> <td>
+        <%= text_field 'password_confirmation', '@user.password'  %>
+     </td> </tr>
+</table><br>
+      <%= submit_tag "Submit", :class => "submit" %>
+    
+<%= end_form_tag %>
+  <br><br><br>
+<%= link_to 'Login.', :action => 'login' %><br><br>
+
+</div>
+<br><br>
+It goes without saying. We'll never use your details for anything dodgy.<br>Or pass them on to evil spammers or government agencies. 

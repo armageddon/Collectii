@@ -1,0 +1,39 @@
+
+<%= error_messages_for 'photos' %>
+
+<!--[form:photos]-->
+<% if @photo.pic %>
+<%= start_form_tag({ :action => 'update', :id=> @photo },{:multipart => 'true'}) %>
+<% else %>
+<%= start_form_tag({ :action => 'create'},{:multipart => 'true'}) %>
+<% end %>
+<p>
+<% if @photo.pic %>
+
+	 <%= link_to( image_tag( url_for_file_column( 'photo', 'pic', 'thumb')), 
+	                    url_for_file_column( 'photo', 'pic', 'medium'), 
+	        { :rel => "lightbox" } )%><br />
+	
+	<p><label for="file_column_field"><h2>Change Picture:</h2></label><%end%>
+<div id ="notice">Must be a .jpg, .gif or .png</div> 
+<%= file_column_field "photo", "pic" %></p>
+
+<div id="info"><label for="poster_image">Poster Image? </label> 
+<%= check_box(:photo, :poster_image )   %> 
+<a href='#' id='link'>
+<%= image_tag('info_11x15.gif') %></a>
+
+
+</div><br/>
+
+
+
+<p><label for="photo_caption">Photo Details:</label><br/>
+<%= text_area 'photo', 'caption', "cols" => 50, "rows" => 6  %></p>
+
+
+<div class='tooltip for_link' style="display: none;"> 
+	<h2>What is a Poster Image?</h2>
+    <p>A poster image is an the main image that people will see when searching through collections. It will also appear as the title image of your collection. You can have more than one poster image - in which case the poster image will be chosen randomly from the pool of poster images.</p>
+<a href="javascript: link.close"><img src="/images/close_message.gif" style="float: right;"></a>
+</div>

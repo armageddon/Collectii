@@ -1,0 +1,29 @@
+owner: <%=	@owner %> <br>
+		<% if @friends_pending and @owner %>
+		<tr><td valign="top">
+		<h2>You've invited for Friendship: </h2></td><td valign="top">
+		<% @friends_pending.each do |friend| %>
+
+		<% friend_name=User.find(friend.friend_id)%>
+		<%= link_to friend_name.name, :controller => 'posts', :action => 
+		'collector', :id =>friend_name.name %>
+	<% end %>
+	
+		 </td></tr>
+<% end %>
+
+	<% if @owner and @friends_invite %>
+	<tr><td valign="top">
+<h2>Friendship invites to you: </h2></td><td valign="top">
+
+		<% @friends_invite.each do |friend| %>
+		<% friend_name=User.find(friend.user_id)%>
+		<%= link_to friend_name.name, :controller => 'posts', :action => 
+		'collector', :id =>friend_name.name %> <%= link_to '[Add]', :controller => 'friendship', :action => 
+		'acceptfriend', :id =>friend.user_id %> <%= link_to '[View]', :controller => 'posts', :action => 
+		'collector', :id =>friend_name.name %> <%= link_to '[Reject]', :controller => 'friendship', :action => 'rejectfriend', :id =>friend.user_id %>
+		<br>
+	<% end %>
+
+</td></tr>		
+<% end %>

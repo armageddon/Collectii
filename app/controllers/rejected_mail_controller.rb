@@ -1,0 +1,3 @@
+class RejectedMailController < ApplicationController
+
+end

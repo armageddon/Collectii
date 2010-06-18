@@ -1,0 +1,49 @@
+<div class="depot-form">
+
+  <%= error_messages_for 'user' %>
+<h3>Collections Signup</h3>
+Already a user? <%= link_to 'Login.', :action => 'login' %><br><br>
+<div id="post">
+For your convenience, we've tried to make signup as simple as possible. 
+So all you need to do is choose a unique username and password. However, you should really confirm your email address. If you forget your password and you have not, you will loose your collection.
+</div> 
+ <br><br>
+<table>
+    <% form_for :user do |form| %>
+     <tr><td> 
+        <label for="user_name">Choose Username:</label>
+</td> <td>
+        <%= form.text_field :display_name, :size => 35 %>
+    </td> </tr>
+
+	      <tr><td> 
+	        <label for="user_password">Password:</label>
+	</td> <td>
+	        <%= form.password_field :password, :size => 35 %>
+	       </td> </tr>
+		  <tr><td>  
+	        <label for="user_password_confirmation">Confirm:</label>
+	</td> <td>
+	        <%= form.password_field :password_confirmation, :size => 35 %>
+	     </td> </tr>
+	
+	
+		      <tr><td> 
+		        <label for="user_email">Email Address:</label>
+		</td> <td>
+		        <%= form.text_field :email, :size => 35 %>
+		       </td> </tr>
+		
+
+    
+</table><br>
+
+      <%= submit_tag "Sign me up!", :class => "submit", :name=>:login %> <%= submit_tag "Login and Edit Your Profile" , :class => "submit", :name=>:login%>
+    
+    <% end %>  
+  <br><br><br>
+<br>
+
+</div>
+<br><br>
+It goes without saying. We'll never use your details for anything dodgy.<br>Or pass them on to evil spammers or government agencies. 

@@ -1,0 +1,72 @@
+<div id="holder">
+	<div id="post">
+	<br><h1>Welcome to Collectivism. Collecting everything under the sun. A site to show off your collections to the world and view the other crazy things people are collecting. 
+		<br>
+		</h1>
+
+			<% @owner= User.find(@post.user_id).name %>
+
+		<h3 style= "display:inline;">
+		<%= link_to @post.title.titleize, :action => 'collection',:controller=>'photos', :id => @post %>
+		</h3>
+		<class="author">by <b><%= link_to @owner, :action => 'collector', :id => @owner	 %></b>
+		</class>
+		<br>
+
+		<br>
+		<% @poster = @post.photos.find(:first, :conditions => "poster_image= '1'", :order => 'RAND()')%>
+		<% if @poster %>
+		<%= link_to( image_tag( url_for_file_column( 'poster', 'pic', 'medium')), 
+		:action => 'collection', :controller=>'photos', :id => @post)%><br />
+
+		<br>
+		<% else %>
+		<br>
+		[No picture yet...]
+		<br><br><br>
+		<% end %>
+		<div id="posts">
+		<%= h(truncate(@post.post, 200)) %> 
+
+			<% if @post.user_id == @user_id %> 
+			<%= link_to '...[edit]', :action => 'edit', :id => @post %>
+			<% end %>
+
+
+	
+</div></div>
+
+<div id="right2">
+	<h1>Login: </h1>
+	  <form>
+<h1>
+	        <label for="name">Name:</label>
+
+	        <%= text_field_tag :name, params[:name] %>
+
+	        <label for="password">Password:</label>
+
+	        <%= password_field_tag :password, params[:password] %>
+<br>
+
+	<%= submit_tag "Log In", :name=>:login, :action=> 'authentication', :submit=>'Log In' %> 
+
+
+	    </form>
+	<br>
+	<br><%= link_to 'Join up', :action => 'rating' %> if you are not already a member. Membership is free. And easy.</h1>
+
+		<br>
+		<br><br>
+		<br><br>
+<h1>Popular subjects:</h1>
+	<%= render :partial => 'plugins/tag_cloud',:locals => {:tags => @tags} %> 
+	<h1>Popular collections:</h1>
+	<%= render :partial => 'plugins/popular',:locals => {:popular => @popular} %>
+	<h1>Suggestions:</h1>
+	<%= render :partial => 'plugins/suggest2',:locals => {:@suggestion => @suggestion} %>
+		</div>
+		</div>
+<br />
+
+

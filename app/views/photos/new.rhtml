@@ -1,0 +1,30 @@
+<table><tr><td margin="30px" valign="top">
+<h3>Build Your Collection: <%= @post.title.titleize %></h3>
+	<div id="post">
+		
+<h1>Upload photos of your collection here. For best results, use pictures that are landscape, and with a image size no larger than 1024x768 and a resolution no more than 72dpi. <%= link_to 'Click here', :action => 'list' %> for image uploading tips and help. </h1>
+
+
+<br>
+<%= form_tag({:action => 'create', :id=> @post},{:multipart => 'true'}) %>
+
+
+
+
+  <%= render :partial => 'form' %>
+</div>
+<div id="button">
+  <%= submit_tag "Add to Collection" %> 
+or <%= link_to 'Finish', :action => 'collection', :id=> @post %> or <%= link_to 'Cancel', :action => 'collection', :id=> @post %>
+</div>
+<%= form_tag %>
+
+
+
+</td><td width="50px"></td><td valign="top">
+	
+	
+	 <%= render :partial => 'plugins/thumb_gallery', :locals => {:post => @post, :edit=> @edit} %>
+
+</td></tr>
+<table>

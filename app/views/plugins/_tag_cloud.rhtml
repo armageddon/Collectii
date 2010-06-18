@@ -1,0 +1,4 @@
+<% tag_cloud tags, %w(nube1 nube2 nube3 nube4 nube5 nube6 nube7 nube8 nube9 nube10) do |name, css_class| %>
+  <%= link_to name, {:action => :show_tags, :controller=> 'posts', :id => name},
+    :class => css_class %>
+<% end %>

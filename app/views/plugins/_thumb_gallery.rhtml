@@ -1,0 +1,23 @@
+<div id="sidebar">
+			<h3>Contents
+
+				</h3>
+This collection currently contains the following images:<br><br></div>
+<%if edit == "true" %>			
+				<%= link_to image_tag( 'add_to_collection.gif'), :action => 'new', :controller=>'photos', :id => post %><br><br>
+				<% end %>
+<div id="thumbs">
+	
+<% post.photos.each do |@photo| %>
+<%= link_to( image_tag( url_for_file_column( 'photo', 'pic', 'thumb'), :width=>"50",:height=>"50",  :border=>"1px #ccc;"), 
+                   url_for_file_column( 'photo', 'pic', 'medium'), 
+       { :rel => "lightbox" , :title=>@photo.caption} )%>
+<%if edit == "true" %>
+<%= link_to image_tag( 'edit_23x11.gif'), :action => 'edit', :controller=>'photos', :id => @photo %> 
+<%= link_to image_tag( 'del_11x11.gif'), :action => 'delete_photo', :controller=>'photos', :id => @photo.id %>
+<% end %>
+
+
+<% end %>
+
+</div></div>

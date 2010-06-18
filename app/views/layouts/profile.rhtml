@@ -1,0 +1,21 @@
+<html>
+<head>
+<title>Radarboy iCollections Alpha</title>
+  <%= stylesheet_link_tag 'scaffold' %>
+<%= stylesheet_link_tag 'content' %>
+<%= stylesheet_link_tag 'lightbox' %>
+<%= javascript_include_tag :defaults %>
+<%= javascript_include_tag 'lightbox' %>
+<%= javascript_include_tag 'Tooltip' %>
+</head>
+<body>
+ <%= render :partial => 'plugins/username' %>
+ <%= render :partial => 'plugins/menu' %>
+
+<% if flash[:notice] -%> <br>
+<div id="notice"><%= flash[:notice] %></div> <br>
+<% end -%>
+<%= @content_for_layout %>
+ <%= render :partial => '/plugins/footer' %>
+</body>
+</html>

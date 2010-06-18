@@ -1,0 +1,25 @@
+
+<% if @suggestion.length >1 %>
+	<h2 style= "display:inline;">You also might like these collections: </h2>
+	<br>
+	<% count=0 %> 
+	<% if @randomtag %>
+<% for suggest in @suggestion %> 
+	<% if @posts.title != suggest.title and count < 10 %> 
+		<% count+=1 %> 
+<%= link_to suggest.title, :action => 'collection', :id => suggest.id %><br>
+<% end %>
+<% end %>
+	<% end %>
+		<% end %>
+		<br><br>
+		<h2 style= "display:inline;">Most popular: </h2>
+			<br>
+	<% @popular.each do |popular| %>		
+<%= link_to popular.title, :action => 'collection', :id => popular.id %><br>	
+	<% end %>
+	<br>		
+			<h2 style= "display:inline;">Groups: </h2>
+			<% if @user_id and @posts.user_id != @user_id %> 
+			<%= link_to 'Group me', :action => 'edit', :id => @posts %> <%= link_to '[?]', :action => 'edit', :id => @posts %>
+			<% end %>

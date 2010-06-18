@@ -1,0 +1,47 @@
+
+<% if @suggestion.length >1 %> <br>
+	<h1>You also might like these collections: </h1>
+
+	<% count=0 %> 
+	<% if @randomtag %>
+		<div id="thumbs" style="float:left; display: inline;">
+<% for suggest in @suggestion %> 
+		<% @photo = suggest.photos.find(:first, :conditions => "poster_image= '1'", :order => 'RAND()') %>
+	<% if @posts.title != suggest.title and count < 10 and  @photo %> 
+		<% count+=1 %> 
+			
+		
+		<% @photo = suggest.photos.find(:first, :conditions => "poster_image= '1'", :order => 'RAND()') %>
+<%= link_to( image_tag( url_for_file_column( 'photo', 'pic', 'thumb'), :width=>"50",:height=>"50",  :border=>"1px #ccc;"),  :action=>'collection', :id=>suggest )%>
+		
+
+<% end %>
+<% end %>
+	</div>
+	<% end %>	<br>
+		<% end %>
+	
+	<br>	<h1>Popular collections: </h1>
+		
+	<% @popular.each do |popular| %>		
+<%= link_to popular.title, :action => 'collection', :id => popular.id %><br>	
+	<% end %>
+	<br>		
+		
+
+<% if @user_id %> 
+			
+			<% if @posts.user_id != @user_id %> 
+				<h1>	<a href='#' id='link'><img src="/images/info_11x15.gif" style="float:none;"></a> Groups: </h1>
+			<%= link_to '[+] Group me', :action => 'group_me', :controller=> 'posts', :id => @posts %>
+			
+			
+			<% end %>	
+			<% else %>
+				<h1>	<a href='#' id='link'><img src="/images/info_11x15.gif" style="float:none;"></a> Groups: </h1>
+<%= link_to 'Login and group me', :action => 'edit', :id => @posts %> 
+			
+			<% end %>
+			
+
+			

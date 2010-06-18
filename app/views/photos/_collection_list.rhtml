@@ -1,0 +1,11 @@
+
+<div id="collection_list" style="display:none;">
+<% @count= 0%>
+<h2 style="display:inline; margin-bottom:0px;padding-bottom:0px;">Collection List: </h2>
+<table padding="0" margin="0" border-width="0" border-spacing="0" valign="top">
+
+<% @posts.photos.each do |@photo| %>
+<%= render :partial => 'list', :locals => {:photo => @photo} %>
+<% end %>
+</table>
+</div>

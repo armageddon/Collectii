@@ -1,0 +1,18 @@
+
+<h1>Listing Collections</h1>
+
+<% for post in @posts %> 
+	<%= render :partial => "plugins/show_post", :locals => {:post => post} %>
+<% end%>
+ 
+<% if @post_pages.page_count > 1 %>
+Page&nbsp;:
+<%= pagination_links_remote @post_pages %>
+<% end %>
+
+	<br><br>
+
+
+<br />
+
+

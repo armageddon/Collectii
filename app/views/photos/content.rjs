@@ -1,0 +1,2 @@
+page[:details2].toggle
+page[:more_details].toggle

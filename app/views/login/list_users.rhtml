@@ -1,0 +1,29 @@
+
+<%= stylesheet_link_tag 'scaffold' %> 
+
+<h3>User Administration</h3>
+<ul><table>
+  <% for user in @all_users %>
+  <tr><td>
+        <%= h(user.name) %></td>
+<td>
+   	  <%= link_to "[X]", { # link_to options
+	                             :controller => 'login', 
+	                             :action => 'delete_user',
+	                             :id => user},
+	                           { # html options
+	                             :post => true,
+	                             :confirm => "Really delete #{user.name}?"
+	                           } %>
+	
+							<%= link_to "[Edit]", { # link_to options
+							                             :controller => 'login', 
+							                             :action => 'edit_user',
+							                             :id => user} %>
+	<br></td></tr>
+  <% end %>
+
+</table><br><br>
+<%= link_to 'Login.', :action => 'add_user' %>
+<%= link_to 'Signup.', :action => 'add_user' %>
+</ul>

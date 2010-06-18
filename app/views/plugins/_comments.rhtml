@@ -1,0 +1,8 @@
+<% if @comment.length>1 %>	
+	<% @comment.each do |comment| %>
+
+	<%= link_to truncate(nl2br(comment.body),100), :action => 'collection', :controller=>'photos', :id => comment.post_id, :anchor => comment.id %><br>
+<% end %>
+<% else %>
+[no new comments]
+		<% end %>

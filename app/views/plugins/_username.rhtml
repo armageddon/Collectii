@@ -1,0 +1,13 @@
+<div id="logoholder">
+Collectii.<br><font style="font-weight: normal;">Collecting Everything Under The Sun</font>
+</div>
+<div id="topbar"></div>
+
+<div id="login">	<% if @user_name %>
+	Logged in as: <b><%= @user_name %>. </b><%= link_to 'Edit Profile. ', :controller => 'user',:action => 'edit_profile',  :id => @user_id %><%= link_to 'Logout.', :controller => 'login',:action => 'logout' %>
+	<% else%>
+	You are not logged in. <%= link_to 'Login. ', :controller => 'login',:action => 'login' %><%= link_to 'Signup.', :controller => 'login',:action => 'add_user' %>
+	<% end %> &nbsp  &nbsp
+	
+</div>
+<br><br>

@@ -1,0 +1,5 @@
+
+		<% popular_cloud @popular, %w(nube1 nube2 nube3 nube4 nube5) do |title, css_class| %>
+		  <%= link_to title, {:action => 'popular_choice', :controller=>'photos', :title => title} %>
+<br>		
+		<% end %>

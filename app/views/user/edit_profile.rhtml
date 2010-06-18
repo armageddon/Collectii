@@ -1,0 +1,82 @@
+<div class="depot-form">
+  <%= error_messages_for 'user' %>
+<h3>Edit User Profile for <%= @user.display_name%></h3><br>
+
+<br>
+<table><tr><td width="500">
+<%= form_tag({ :action => 'update', :id=> @user },{:multipart => 'true'}) %>
+
+
+<p><label for="profile_hide">
+Hide my profile from others <%= check_box(:profile, :hide )   %> 
+	<a href='#' id='info'>
+ <img src="/images/info_11x15.gif"></a></label> 
+</p>
+<%= link_to 'Change username and password', :action => 'edit_user', :controller=>'login', :id => @user_id %><br>
+	<p><label for="profile_pic"><h2>Profile Pic:</h2></label>
+<% if @profile.pic %>
+<%= link_to( image_tag( url_for_file_column( 'profile', 'pic', 'thumb')), 
+	                    url_for_file_column( 'profile', 'pic', 'medium'), 
+	        { :rel => "lightbox" } )%></p>
+<p><label for="file_column_field"><h2>Change Picture:</h2></label>
+	<%end%>
+		<%= file_column_field "profile", "pic" %></p>
+<p><label for="profile_name"><h2>Name:</h2></label>
+<%= text_field 'profile', 'name'  %></p>
+<p><label for="profile_surname"><h2>Surname:</h2></label>
+<%= text_field 'profile', 'surname'  %></p>
+<p><label for="profile_city"><h2>City:</h2></label>
+<%= text_field 'profile', 'city'  %></p>
+
+<p><label for="profile_about_me"><h2>Profile:</h2></label>
+<%= text_area 'profile', 'about_me'  %></p>
+
+<p><label for="profile_notify">Notify me when comments are added to my collections: </label> 
+<%= check_box(:profile, :notify )   %>  <%= link_to image_tag('info_11x15.gif'), :action => 'edit' %><br/></p>
+
+<p><label for="profile_email"><h2>Your email:</h2></label>
+	<%= text_field 'user', 'email'  %>
+		<% if @profile.confirmed!=1 %>
+		<a href='#' id='link'>
+	 <img src="/images/attention.gif"></a>
+			<%end%>
+	</p>
+	
+	<p><label for="user_website"><h2>Blog/Website URL:</h2></label>
+	<%= text_field 'profile', 'website'  %></p>
+	<p><label for="profile_interests"><h2>Interests:</h2></label>
+	<%= text_area 'profile', 'interests'  %></p>
+
+	
+      <%= submit_tag "Save Profile", :class => "submit" %>
+    
+<%= end_form_tag %>
+  <br>
+
+</div>
+</td>
+<td valign="top">
+	<br><br>
+	<h2>Your Collections: </h2>
+	<% if @posts.length>0 %>
+<% @posts.each do |post| %>
+<% @comment= Comment.find(:all, :conditions=> "post_id ='#{post.id}'", :limit => 3, :order=>"created_at DESC") %>
+<%= render :partial => 'plugins/recent_comments', :locals=> {:post => post} %>
+<% end %>
+<% else %>
+You currently have no collections.  <%= link_to 'Add collection', :action=>'new', :controller=>'posts' %>
+ <% end %>
+</td></tr></table>
+<br><br>
+It goes without saying. We'll never use your details for anything dodgy.<br>Or pass them on to anyone. Read our privacy statement here. 
+
+
+
+
+<div class='tooltip for_link' style="display: none;"> 
+	<h2>You have not confirmed your email address</h2>
+    <p>Without confirming your email address you run the risk of loosing your collection if you forget your password. Please take time to confirm. <a href="confirm.html">Click here</a> to generate a confirmation email.</p></div>
+
+	<div class='tooltip for_info' style="display: none;"> 
+		<h2>Hiding your profile</h2>
+	    <p>You can hide your profile from others, in which case only your username and profile pic (if you have one) will be visible to others. Your name, surname, city, profile etc. will be hidden. Your email is <b>never</b> shown to anyone. </p></div>

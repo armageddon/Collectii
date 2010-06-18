@@ -1,0 +1,22 @@
+	<div id="tag-<%=post.id%>" class="taglist"> 
+		<% for tag in post.tags %>
+		<%= link_to tag, :action => 'show_tags', :controller=> 'posts', :id => tag.name.titleize %>
+	<% end %>
+		<% if post.user_id == @user_id %>
+		<% form_id = "taglist-for-#{post.id}" %> <br>
+
+		
+		<%= form_remote_tag :url => {:action => "tag", :id => post}, 
+		:success => visual_effect(:blind_down, "tag-#{post.id}"), 
+		:update => "tag-#{post.id}", 
+		:html => {:id => form_id, :style => "display:none"} %> 
+<small>Separate categories by spaces. If you want a two word category, separate it with an underscore, eg. buzz_lightyear<br><br></small> 
+		<%= text_field_tag "tag_list", 
+		post.tags.collect{|t| t.name}.join(" "), :size => 40 %>
+		
+		<%= hidden_field_tag "form_id", form_id %> 
+		<%= submit_tag "save" %> 
+
+		<%= end_form_tag %>
+			<% end %>
+		</div> 

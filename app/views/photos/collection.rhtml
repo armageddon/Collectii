@@ -1,0 +1,161 @@
+
+<br><div id="post_title">
+	
+<h3 style= "display:inline;"><%= @posts.title.titleize %></h3><br>
+by <%= link_to @owner.name, :action => 'collector', :controller=>'posts', :id => @owner.id %><br>
+
+</div>
+
+<br>
+
+	<% if @poster %>
+	<%= image_tag( url_for_file_column( 'poster', 'pic', 'medium'), :width=>"640px")%>
+	<br>
+	 <%= @poster.caption %><br><br>
+	<% end %>
+
+<div id=collection-thumbs>
+<%= render :partial => 'collection_thumbs', :locals => {:poster => @poster, :post => @posts} %>
+</div>
+
+<%= render :partial => 'plugins/admin', :locals => {:@posts => @posts} %>
+
+</div>			
+<div id="commentbox">
+<%= render :partial => 'comment_form', :locals => {:post => @posts} %><br>
+<div id="commentcount">
+<%= "<h1>" + @posts.comments.length.to_s + " Comments:</h1>" unless @posts.comments.empty? %>
+</div>
+<div id="commentholder">
+
+
+<%= render :partial => 'comment_post',:collection=>@comments.reverse, :locals => {:post => @posts} %> 
+<br><br>
+
+<% if @comment_pages.page_count > 1 %>
+<%= link_to 'More comments', :action => 'collection', :id => @posts, :page=>@comment_pages %>... Page&nbsp;:
+<%= pagination_links_remote @comment_pages %>
+<% end %>
+
+</div>
+</div>
+<br>
+<% if @posts.user_id == @user_id %> 
+<%= link_to image_tag( 'add_to_collection.gif'), :action => 'new', :id => @posts %>
+<%= link_to image_tag( 'edit_23x11.gif'), :action => 'edit', :id => @posts %>
+
+
+<% end %> 
+
+
+<div id="right2">
+<div id="sidebar">
+	<%= render :partial => "rating/rating", :locals => { :post => @posts } %>
+<br>
+<% if !@fave && @posts.user_id != @user_id %> 
+<%= link_to 'Add to favourites', :controller => 'posts', :action => 
+'add_to_favourites', :id =>@posts %> &nbsp
+<% elsif @fave && @posts.user_id != @user_id %> 
+One of your favourites <br>
+<% end %> 
+<div id="details">
+
+
+<div id="details2">
+	<% a= nl2br(@posts.post[0...350])%>
+<%= a %> <br>
+<%= link_to_remote "More...", :url =>{:action=>'content'} %><br>
+</div>
+
+<br>
+
+<div id="more_details" style="display:none;">
+<%= nl2br(@posts.post) %> <br>
+<%= render :partial => 'plugins/stats', :locals => {:post => @posts} %><br>
+
+<%= link_to_remote "Less...", :url =>{:action=>'content'} %><br><br>
+</div>
+<h1>Categories: </h1>
+<%= render :partial => "plugins/tags", :locals => {:post => @posts} %>
+<% if @posts.user_id == @user_id %>
+	<% form_id = "taglist-for-#{@posts.id}" %>
+			<%= link_to_function(image_tag( 'edit_23x11.gif'), "Element.toggle($('#{form_id}'))") %>
+			<% end %>
+</div>
+
+
+<% if @user_id %> 
+<% if @posts.user_id != @user_id %> 
+<%= link_to 'Group me', :action => 'group_me', :controller=> 'posts', :id => @posts %>
+<% end %>	
+<% else %>
+<%= link_to 'Login and group me', :action => 'edit', :id => @posts %> 
+<% end %>
+
+<br>
+	
+
+		<div id="list_link">
+		<br>
+		
+<br>
+		</div>
+
+
+
+<%# end %>
+
+
+	<% if @posts.user_id != @user_id %>
+
+	<% if @pending%>
+	<h2>[Friendship pending acceptance of user]</h2><br>
+	<% elsif @pending2 -%> 
+	<h2>[This user has requested friendship]</h2><br>
+	<%= link_to 'Add as a friend', :controller => 'friendship', :action => 
+	'invitefriend', :id => @posts.user_id, :post => @posts.id, :collector => @owner %>
+	<% elsif !@my_mate -%> 
+	<%= link_to 'Add as a friend', :controller => 'friendship', :action => 
+	'invitefriend', :id => @posts.user_id, :post => @posts.id, :collector => @owner %>
+	<% else %> 
+	<h2>[This user is your friend]</h2><br>
+	<% end %> 
+
+	<% end %>
+
+	
+
+<% if @fave -%> 
+<h2>This collection is one of your favourites</h2>
+<br><br>
+<% end %>
+
+
+		</div>
+
+
+<h1>Grouped with:</h1>
+<% @groups.each do |group| %>
+<%if post.groups.include? group %>
+<%if group.grouped_to.to_s == params[:id].to_s %>
+xxxx <br>
+
+<%end%> 
+
+<%else%>
+Not grouped
+<%end%> 
+
+<% end %>
+
+	<h1>Popular Categories:</h1>
+	<%= render :partial => 'plugins/tag_cloud_plain',:locals => {:tags => @tags} %> <br>
+	<a href=""> All Categories</a>
+
+<%= render :partial => 'plugins/suggest2',:locals => {:@suggestion => @suggestion} %>
+
+</div>
+
+<div class='tooltip for_link' style="display: none;"> 
+<h2>Grouping</h2>
+<p>You can group any other similar collections to your own collections, effectively creating a super-collection. This will also help others to find your collection and form a community of collectors around a certain theme. </div>

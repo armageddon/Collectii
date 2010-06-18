@@ -1,0 +1,124 @@
+<% if @my_mate %>
+This collector is YOUR FRIEND <br><br>
+<% elsif @is_friend_pending %>
+This collector has NOT YET accepted your friendship invitation<br><br>
+<% else %>
+<% if !@owner%>
+<% if @friends_invited%>
+<% @friends_invited.friend_id%>
+[This user has requested your friendship] <br>
+<% end %>
+<%= link_to 'Add as a friend', :controller => 'friendship', :action => 
+'invitefriend', :id => @user, :collector => @collector %><br><br>
+<% end -%>
+<% end %>
+<div id="user_profile">
+	
+	<% if @profile.pic %>
+
+		 <%= link_to( image_tag( url_for_file_column( 'profile', 'pic', 'thumb')), 
+		                    url_for_file_column( 'profile', 'pic', 'medium'), 
+		        { :rel => "lightbox" } )%>
+
+	<% end %>
+
+<h2>Username: <%= @user_profile.name %></h2>
+
+<% if @user_id.to_s == @profile.user_id.to_s or (@user_id.to_s != @profile.user_id.to_s and !@profile.hide)%>
+<br>
+
+<% if @profile.name !=""%>
+<h2>(aka <%= @profile.name %> <%= @profile.surname %>) 
+<% end %>
+
+<% end %>
+</h2>
+<table style="clear:both;">
+
+
+<tr><td valign="top" width="130px">
+<h2>City: </h2></td><td valign="top">
+<% if @profile.city %>
+<%= link_to @profile.city, :action => 'location', :controller=>'posts', :id => @profile.city %>
+<% end %>
+</td></tr>
+
+
+<tr><td  valign="top">
+<h2 style="clear:both;">Profile: </h2></td><td>
+<% if @profile.about_me !="" %>
+<%= @profile.about_me %>
+<% elsif @owner %>
+<%= link_to 'Add your profile', :action => 'edit_profile', :controller=>'user', :id => @user_id %>
+<% else %>
+[No profile yet]
+<% end %>
+ </td></tr>
+
+<% if @profile.website !="" %>
+<tr><td valign="top">
+<h2>Blog/Website: </h2></td><td valign="top"><%= auto_link(@profile.website) %> </td></tr>
+<% end %>
+	
+<% if @profile.interests !="" %>	
+<tr><td valign="top">
+<h2>Interests: </h2></td><td valign="top"><%= @profile.interests %> </td></tr>
+<% end %>
+	
+<% if @user_id.to_s == @profile.user_id.to_s %>
+<tr><td  valign="top">
+	<% if @owner %>
+		<h2>Email: 
+		<a href='#' id='mail'><%= image_tag('info_11x15.gif') %></a>
+	</h2></td>
+	<td valign="top"><%= auto_link(@user_profile.email) %>
+	<% if @profile.confirmed!=1 %>
+	<a href='#' id='confirm' >
+[unconfirmed]</a>
+	<% end %>
+	<% end %>
+	
+</td></tr>
+<% if @owner %>
+<% if @profile.notify=="1" and @profile.confirmed!=1 %>
+<tr><td valign="top" colspan="2">
+<h2 style="display:inline;">You have selected to be notified when comments are added to your collections. However, this feature will be  blocked until you confirm your email. </h2><a href="">Send me a confirmation email.</a></td></tr>
+<% end %><% end %>
+	<% end %>
+	<% if @friends or @friends2 %>
+<tr><td valign="top">
+<h2>Friends: </h2></td><td valign="top">
+<%= render :partial => "user/friends",  :locals =>{ :@friends => @friends, :@friends2 => @friends2} %> 
+</td></tr>
+<% end %>
+<%= render :partial => "user/friends_pending",  :locals =>{ :@friends_pending => @friends_pending,:@friends_invite => @friends_invite,:@owner => @owner} %> 
+
+	
+		<tr><td valign="top">
+		<h2>Favourites: </h2></td><td valign="top">
+		<% if @fave %>
+			<% @fave.each do |fave| %>
+
+			<% fave_name=Post.find(fave.post_id)%>
+			<%= link_to fave_name.title, :controller => 'photos', :action => 
+			'collection', :id =>fave_name.id %>
+		<% end %>
+<% else %>
+[No favourites yet]
+<% end %>	
+		 </td></tr>
+
+	
+</table>
+</div>
+
+<div class='tooltip for_confirm' style="display: none;"> 
+	<h2>You have not confirmed your email address</h2>
+    <p>Without confirming your email address you run the risk of loosing your collection if you forget your password. Please take time to confirm. <a href="confirm.html">Click here</a> to generate a new confirmation email.</p></div>
+
+
+	
+		<div class='tooltip for_mail' style="display: none;"> 
+			<h2>Your email is always private</h2>
+		    <p>Your email will never be visible to others.</p></div>
+

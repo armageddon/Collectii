@@ -1,0 +1,56 @@
+<div id="view">
+	<br>
+<%= error_messages_for 'user' %>
+
+<table>
+<tr><td width="500px" margin-right="130" valign="top">
+<h3 style="display:inline;">User Profile </h3>
+<% if @profile.hide and @owner %>
+	<a href='#' id='hide'>
+[Profile is hidden]</a>
+
+<% end %>
+<% if @owner %>
+<%= link_to image_tag( 'edit_23x11.gif'), :action => 'edit_profile', :controller=>'user', :id => @user_id %>
+<% else%>
+<%= link_to 'Add as friend', :action => 'edit_user', :controller=>'login', :id => @user_id %> 
+<% end%><br>
+<%= render :partial => 'user_profile'%>
+<br>
+<% if @owner %>
+<%= link_to 'Change username and password.', :action => 'edit_user', :controller=>'login', :id => @user_id %> <br>
+
+ <br><br><br>
+<small>
+It goes without saying. We'll never use your details for anything dodgy.<br>Or pass them on to anyone. Read our <a href="privacy.html">privacy statement</a> for more information. 
+</small>
+<% end%>
+
+<br><br>
+<td width="60"></td>
+<td valign="top">
+	
+	<br><br>
+	<% if @owner %>
+	<h4>	<%= link_to 'Your Collections:', :action => 'collector', :controller=>'posts', :id => @user_id %></h4>
+	<% else %>
+	<h4><%= @user_profile.name %>'s Collections: </h4>
+			<% end %>
+				
+	<% @posts.each do |post| %>
+	<% if @owner %>
+	<%# link_to image_tag( 'del_11x11.gif'), :action => 'destroy', :controller=>'posts', :id => post %> 
+ 	<%# link_to image_tag( 'edit_23x11.gif'), :action => 'edit', :controller=>'posts', :id => post %> 
+	<% end %>
+
+		<% @comment= Comment.find(:all, :conditions=> "post_id ='#{post.id}'", :limit => 3, :order=>"created_at DESC") %>
+	
+		<%= render :partial => 'plugins/recent_comments', :locals=> {:post => post} %>
+
+				<% end %>
+ </td></tr></table>
+</div>
+
+<div class='tooltip for_hide' style="display: none;"> 
+	<h2>Your profile is hidden</h2>
+    <p>You have hidden your profile from others. Only your username and profile pic (if you have one) will be visible to others. Your name, surname, city, profile etc. will be hidden. Your email is <b>never</b> shown to anyone. <a href="../edit_profile/<%= @user_id %>">Click here</a> to change this setting</p><br></div>
