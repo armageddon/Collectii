@@ -29,7 +29,8 @@ test:
   socket: /tmp/mysql.sock
 
 production:
-    adapter: mysql
-    user: root
-    host: localhost
-    database: collections4_production
+  adapter: mysql
+  database: collections4_production
+  username: cory
+  password: pulse36
+  socket: /tmp/mysql.sock
